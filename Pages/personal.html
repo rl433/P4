@@ -1,0 +1,115 @@
+<!-- DEVELOPER: Ryan Lim, IS117-102, Spring 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Projects - Ryan's Website</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md justify-content-start navbar-dark">
+    <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">Ryan's Website</a>
+        <!-- Responsive Button for the smaller menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <!-- About -->
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <!-- Resume -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Resume.html" id="resumeDropdown" role="button" aria-expanded="false">
+                        Resume
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="resumeDropdown">
+                        <li><a class="dropdown-item" href="work.html">Work</a></li>
+                    </ul>
+                </li>
+                <!-- Projects -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="projectsDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                        <li><a class="dropdown-item" href="personal.html">Personal</a></li>
+                        <li><a class="dropdown-item" href="professional.html">Professional</a></li>
+                    </ul>
+                </li>
+                <!-- Contact -->
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Projects Section -->
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Personal Projects</h2>
+                    <ul>
+                        <li>
+                            <strong>ChatRoom (Java):</strong> Created a chatroom application with socket communication and payload
+                            handling using Visual Studio Code.
+                        </li>
+                        <li>
+                            <strong>Rock, Paper, Scissors Game (Java):</strong> <a href="https://github.com/rl433/IT114-008/tree/main/Project">GitHub Repository</a><br>
+                            Developed a Java-based rock, paper, scissors game with socket implementation and UI
+                            integration using Visual Studio Code. If you would like to see the code for this RPS Game, just click the Github link and it will direct you
+                            to my Github Repository.
+                        </li>
+                        <li>
+                            <strong>The Adventures of Kip (Unity):</strong> <a href="https://rl433.itch.io/it201-section-001-final-project">The Adventures of Kip</a><br>
+                            This link goes to itch.io which is a free website that I unloaded my game to. Here is a brief description on the game:
+                            <p>In my game design, I've taken a holistic approach, considering the emotional, surprising, and pleasurable aspects of gameplay.
+                            Through the lens of emotion, I aim to create an experience where players of all skill levels can
+                            find enjoyment and accomplishment, with careful attention to sound design enhancing immersion.
+                            I want players to feel a sense of achievement as they progress through the game, without it being too
+                            challenging. The lens of surprise is crucial to keeping players engaged and intrigued.
+                            I've incorporated elements like enemy sounds and unexpected boss levels to keep them on their toes.
+                            Additionally, I prioritize the pleasure of gameplay, aiming to provide a relaxing and enjoyable
+                            experience while still offering moments of excitement through combat. Overall, my goal is to create a
+                            well-rounded and captivating gaming experience that players can thoroughly enjoy.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Ryan Lim 4/16/2024 | Terms Of Use | Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+
+</html>
